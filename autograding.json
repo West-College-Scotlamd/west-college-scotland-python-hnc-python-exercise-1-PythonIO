@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "name": "Test greeting with Sarah",
+      "setup": "pip install -r requirements.txt",
+      "run": "python -m unittest test_assignment.py TestGreeting.test_greeting_sarah",
+      "input": "",
+      "output": "Hello Sarah\n",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test greeting with John",
+      "setup": "pip install -r requirements.txt",
+      "run": "python -m unittest test_assignment.py TestGreeting.test_greeting_john",
+      "input": "",
+      "output": "Hello John\n",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
